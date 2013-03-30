@@ -1,0 +1,68 @@
+/*E-portfolio.css*/
+
+body {
+	background-color: lightblue;
+	color: black;
+
+	text-align:center;
+	}
+	
+div.textBackground {    /*outside div*/
+	background-color:pink;
+	border: solid 40px lightblue;
+	border-radius: 5px;
+	width: 1200px;
+	padding:50px;
+	overflow: auto;
+	margin: auto;
+	text-align:left;
+	}
+
+div.mainText{     /* inside div*/
+	background-color: silver;
+	border: solid 1px lightgreen;
+	border-radius: 5px;
+	padding: 2%;
+	overflow: auto;
+	}
+	
+ul li {
+	display: inline;
+	text-align: center;
+	list-style: none;
+	background-color:#9f1; /*Light Green*/
+	padding:10px;
+	border-radius:5px;
+	}
+
+ ul li:hover{
+	background-color:#1DA;
+	}
+
+.title{
+	margin: -55px 0px 0px 170px;
+	font-size:50px;
+	}
+
+#nav{
+	margin: 10px -40px;
+	}
+#maintext{
+	margin: 20px 0px 0px 0px; 
+	}
+/*//////////////////////////////////////*Home//////////////////////////////////////////////*/
+
+h1 {
+	font-size: 150%;
+	}
+
+div.leftCol{
+	float: left;
+	width: 45%;
+	font-weight: 20px;
+	} 
+	
+div.img{
+	float: left;
+	margin-left:80px;
+	}
