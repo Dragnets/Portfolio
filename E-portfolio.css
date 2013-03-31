@@ -6,11 +6,12 @@ body {
 
 	text-align:center;
 	}
-	
+p {
+	font-size:20px
+}
 div.textBackground {    /*outside div*/
 	background-color:pink;
 	border: solid 40px lightblue;
-	border-radius: 5px;
 	width: 1200px;
 	padding:50px;
 	overflow: auto;
@@ -39,18 +40,20 @@ ul li {
 	background-color:#1DA;
 	}
 
+
+/*////////////////////////////////////LOCATION//////////////////////////////////*/
+
 .title{
 	margin: -55px 0px 0px 170px;
 	font-size:50px;
 	}
-
 #nav{
 	margin: 10px -40px;
 	}
 #maintext{
 	margin: 20px 0px 0px 0px; 
 	}
-/*//////////////////////////////////////*Home//////////////////////////////////////////////*/
+/*//////////////////////////////////////PAGES///////////////////////////////////*/
 
 h1 {
 	font-size: 150%;
@@ -60,9 +63,15 @@ div.leftCol{
 	float: left;
 	width: 45%;
 	font-weight: 20px;
+	text-align:justify;
 	} 
 	
 div.img{
 	float: left;
 	margin-left:80px;
+	}
+
+div.img2{
+	position:absolute;
+	margin: 350px 0px 0px 0px;
 	}
